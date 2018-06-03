@@ -1,3 +1,3 @@
 # audit_online
-  запуск проекта
-  *python3 view.py*
+*запуск проекта*
+`python3 view.py`
