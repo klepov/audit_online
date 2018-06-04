@@ -76,8 +76,7 @@ class WeatherNetwork:
     def __send_request(self):
 
         TOKEN = "124645b4-0ab1-4ba0-893d-c70d7b767451"
-        URL = 'https://api.weather.yandex.ru/v1/forecast?lat=0&lon=0&lang=ru_RU&hours=false&limit=7'
-
+        URL = 'https://api.weather.yandex.ru/v1/forecast?lat=55.7437256&lon=37.6271067&lang=ru_RU&hours=false&limit=7'
         headers = {
             "X-Yandex-API-Key": TOKEN
         }
