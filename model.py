@@ -38,7 +38,7 @@ class WeatherDatabaseModel(BaseModel):
         maybe_db = self.__select_from_db(weather.date)
 
         if maybe_db:
-            return WeatherDatabaseModel.update(temp=weather.temp) \
+                return WeatherDatabaseModel.update(temp=weather.temp) \
                 .where(WeatherDatabaseModel.date == weather.date)
 
         return WeatherDatabaseModel(date=weather.date, temp=weather.temp).save()
