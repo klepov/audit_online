@@ -2,4 +2,4 @@
 
 *запуск проекта*
 ----------------
-`python3 view.py`
+`python3 some_line.py`
